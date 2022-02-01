@@ -1,0 +1,55 @@
+/* ------ MAIN ------- */
+
+.portrait {
+	position: relative;
+}
+
+.portrait::before {
+	content: "";
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #ff206e;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index: -1;
+	transition: 0.3s;
+}
+
+.portrait:hover::before {
+	background-color: #008bf8;
+}
+
+.text {
+	max-width: 80%;
+	font-size: 1.2rem;
+}
+
+.socialContainer {
+	right: 0;
+	top: 50%;
+}
+
+/* ------------------------ */
+/* ------ MEDIA QUERIES ------- */
+
+@media only screen and (max-width: 600px) {
+	.portrait::before {
+		content: "";
+		min-width: 100%;
+		min-height: 100%;
+		background-color: #ff206e;
+		position: absolute;
+		left: 8px;
+		top: 50px;
+		z-index: -1;
+		transition: 0.3s;
+	}
+
+	.socialContainer {
+		top: inherit;
+		bottom: 0;
+	}
+}
+
+/* ------------------------ */

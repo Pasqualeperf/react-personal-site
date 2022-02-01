@@ -1,0 +1,19 @@
+/* ------ FOOTER ------- */
+
+footer {
+	width: 100%;
+}
+
+.minimize {
+	font-size: 10.72px;
+}
+
+/* ------------------------ */
+
+/* ------ MEDIA QUERIES ------- */
+
+@media only screen and (max-width: 600px) {
+	footer {
+		margin-bottom: 1rem;
+	}
+}

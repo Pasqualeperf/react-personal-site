@@ -1,0 +1,13 @@
+.colors {
+	margin-top: 2rem;
+}
+
+/* ------ MEDIA QUERIES ------- */
+
+@media only screen and (max-width: 600px) {
+	.colors {
+		display: none !important;
+	}
+}
+
+/* ------------------------ */
