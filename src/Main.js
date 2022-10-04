@@ -32,10 +32,7 @@ function Main(props) {
                             <span className='text' itemProp="name">Pasquale Perfetto</span>
                             </a>
                             , <span className='text' itemProp="jobTitle">Mid Full Stack Developer</span>, System
-                            Administrator, ma sono anche appassionato di musica Rap, Trap,
-                            Rock...(un pò tutta a dire il vero!), di sport, soprattutto sono
-                            appassionato di Calcio ma anche di Minimal Design e design inerente
-                            al digital e alla moda. Sono un fan dell'associazione {" "}
+                            Administrator, mi occupo di sviluppo software da 4+ anni, cerco di mettere in campo conoscenze che accresco ogni giorno. Sono un fan dell'associazione {" "}
                             <a href="https://it.wikipedia.org/wiki/Anonymous" target="_blank" rel="noreferrer">
                             Anonymous
                             </a>
