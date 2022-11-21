@@ -1,9 +1,9 @@
-import './App.css';
+import './assets/css/App.css';
 import React, {useState, useEffect} from 'react';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
-import ColorsMobile from './ColorsMobile';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import ColorsMobile from './components/ColorsMobile';
 
 function App() {
   const [color, setColor] = useState('#FFF');

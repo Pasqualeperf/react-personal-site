@@ -1,5 +1,5 @@
 import React from 'react';
-import './Color.css';
+import '../assets/css/Color.css';
 
 function Color(props) {
   return (

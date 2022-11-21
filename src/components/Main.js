@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css';
+import '../assets/css/Main.css';
 import Colors from './Colors';
 
 function Main(props) {
@@ -49,11 +49,19 @@ function Main(props) {
                             </a>
                             &lt;---
                         </p>
+                        <a
+                            itemProp="follows"
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.codewars.com/users/mrrobot993/"
+                        >
+                            <img src="https://www.codewars.com/users/mrrobot993/badges/micro" alt="Codewars badge"></img>
+                        </a>
                         <Colors setColor={props.setColor} />
                     </div>
                 </div>
                 <div className="socialContainer position-absolute">
-                    <div className="firstSocial">
+                    <div className="social">
                         <a
                             itemProp="follows"
                             target="_blank"
@@ -72,7 +80,7 @@ function Main(props) {
                             </svg>
                         </a>
                     </div>
-                    <div className="secondSocial">
+                    <div className="social">
                         <a
                             itemProp="follows"
                             target="_blank"

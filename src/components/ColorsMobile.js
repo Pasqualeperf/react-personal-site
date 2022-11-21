@@ -1,5 +1,5 @@
 import React from 'react';
-import './ColorsMobile.css';
+import '../assets/css/ColorsMobile.css';
 import Color from './Color';
 
 function ColorsMobile(props) {
